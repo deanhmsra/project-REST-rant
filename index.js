@@ -9,6 +9,7 @@ app.use(express.static('public'))
 
 //Controller
 app.use('/places', require('./controllers/places'))
+app.use(express.urlencoded({extended: true}))
 
 //Routes
 app.get('/', (req, res) => {
