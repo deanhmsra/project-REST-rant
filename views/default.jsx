@@ -11,6 +11,11 @@ function Def (html) {
             <body>
                 {html.children}
             </body>
+            <footer className="footer">
+                <a href=""> Resume </a>
+                <a href="https://github.com/deanhmsra"> Portfolio </a>
+                <a href="https://www.linkedin.com/in/hayley-dean-b349a31a4/"> LinkedIn </a>
+            </footer>
         </html>
     )
 }
