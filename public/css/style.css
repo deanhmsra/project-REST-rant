@@ -39,11 +39,6 @@ nav a:hover {
   text-decoration: none;
 }
 
-.wrapper {
-  min-height: 100%;
-  margin-bottom: -50px;
-}
-
-footer, .push {
+footer {
   height: 50px;
 }
